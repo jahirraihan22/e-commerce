@@ -1,0 +1,397 @@
+*{margin:0;padding:0;}
+
+/*
+
+font-family: 'Kulim Park', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Solway', serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Varela Round', sans-serif;
+
+*/
+.menu-head{
+    position: fixed;
+    width: 100%;
+    margin-top: -50px;
+    z-index: 4;
+}
+.bg-color{
+    background-color: #DAE0E2
+}
+.navbar-brand{
+    margin-left: 15px;
+}
+
+.hover-panel:hover{
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.0);
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: #DAE0E2;
+}
+.navbar-default .navbar-collapse{
+    background-color: #192A56;
+   
+}
+.customize-row-panel{
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.customize-row{
+    margin-right: -30px;
+    margin-left: -30px;
+    background-color: #DAE0E2
+}
+.custom-border-none{
+    border: none;
+}
+.active > a > i{
+            color: #2B2B52 !important;
+}
+/*----------------------------------------------------- hover*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover i,
+.navbar-default .navbar-nav > li > a:focus i
+{
+    color: #2B2B52;
+    background-color: #DAE0E2;
+}
+.table-hover > tbody > tr:hover * {
+    color: #2B2B52;
+}
+
+.custom-pro-table > tbody > tr{
+    font-family: 'Raleway', sans-serif;
+    color: #DAE0E2;
+    font-size: 18px;
+}
+
+.custom-pro-table > tbody > tr:hover * {
+    color: #2B2B52;
+}
+.custom-supp-table > tbody > tr:hover * {
+    color: #2B2B52;
+}
+.table-hover > tbody > tr:hover * {
+    color: #2B2B52;
+}
+.customize-btn-1:hover{
+    color: #DAE0E2;
+    background-color: #2F363F;
+}
+.custome-container-fluid{
+    background-color: #DAE0E2
+}
+/**-------------------------------------------------------*/
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    background-color: #192A56;
+}
+
+.panel-primary{
+    border-color: #DAE0E2;
+}
+.panel-primary>.panel-heading{
+    color: #EAF0F1;
+    background-color: #2F363F;
+}
+
+.customize-btn-1{
+    border: none;
+    background-color: #2B2B52;
+    color: #DAE0E2
+}
+
+.border-customize-div{
+    border: 1px solid #0A3D62
+}
+.bg-color-1{
+     color: #EAF0F1;
+     background-color: #0A3D62;
+}
+.bg-color-2{
+     color: #EAF0F1;
+     background-color: #2B2B52;
+}
+.panel-customize{  
+
+    border-radius: 5px;
+}
+.table-hover > tbody > tr > td > a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #EAF0F1;
+}
+.clock{
+    height: 30px;
+    text-align: center;
+    top: 20px;
+}
+
+/*------------------------------------------------------ add supplier.html css start*/
+.addsupplier-header{
+    height: auto;
+    border: none;
+    background-color: #EAF0F1;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(10,61,98,1);
+-moz-box-shadow: 0px 3px 5px 0px rgba(10,61,98,1);
+box-shadow: 0px 3px 5px 0px rgba(10,61,98,1);
+}
+.addsupplier-header > .panel-body > h3 > span{
+    float: left;
+    font-family: 'Kulim Park', sans-serif;
+    color: #0A3D62;
+    font-size: 24px;
+}
+.add-supp-btn{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #EAF0F1;
+    background-color: #0A3D62;
+    float: right;
+}
+.addsupplier-form{
+    display: none;
+    margin-top: -20px;
+    height: auto;
+    background-color: #A4B0BD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(10,61,98,1);
+-moz-box-shadow: 0px 3px 5px 0px rgba(10,61,98,1);
+box-shadow: 0px 3px 5px 0px rgba(10,61,98,1);
+}
+
+.addsupplier-form > form > .half-part-sup-form > .form-group {
+    width: 50%; 
+    font-family: 'Montserrat', sans-serif;
+    color: #0A3D62;
+}
+/*------------------*/
+.editsupplier-form{
+    margin-top: -20px;
+    height: auto;
+    background-color: #A4B0BD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(10,61,98,1);
+-moz-box-shadow: 0px 3px 5px 0px rgba(10,61,98,1);
+box-shadow: 0px 3px 5px 0px rgba(10,61,98,1);
+}
+
+.editsupplier-form > form > .half-part-sup-form > .form-group {
+    width: 50%; 
+    font-family: 'Montserrat', sans-serif;
+    color: #0A3D62;
+}
+/*-------------------*/
+.sup-form-save-btn{
+    font-family: 'Montserrat', sans-serif;
+    color: #EAF0F1;
+    border: none;
+    background-color: #0A3D62;
+}
+/*
+.sup-form-save-btn: hover{
+    background-color: #192A56; !important; /* there is a problem*/
+
+*/
+.bg-color-3{
+    background-color: #0A3D62;
+}
+.edit-dlt-icon{
+    color: #000 !important
+}
+/*------------------------------------------------------ add supplier.html css end*/
+/*------------------------------------------------------login.html css start*/
+.bg-login-form{
+    width: 100%;
+    padding: 0 25%;
+}
+.login-form{
+    font-family: 'Montserrat', sans-serif;
+    background: #99AAAB;
+    border: 1px solid #99AAAB;
+    border-radius: 5px;
+    padding: 20px 5%;
+    margin-top: 250px;
+}
+/*------------------------------------------------------login.html css end*/
+/*-----------------------------------------------------add product.html*/
+
+.add-pro-container{
+    height: auto;
+    padding: 20px 2%;
+}
+.add-pro-container > .div-add-pro{
+    text-align: center;
+    height: auto;
+    float: left;
+    padding: 20px 2%;
+}
+
+.addpro-custom-row{
+    -webkit-box-shadow: 0px 10px 14px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 14px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 14px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+.add-pro-btn{
+    width: 80%;
+    height: auto;
+    padding: 10px 1%;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #192A56;
+    cursor: pointer;
+}
+.add-pro-btn > span{
+    color: #EAF0F1;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif; 
+}
+.add-pro-btn:hover{
+   -webkit-box-shadow: 10px 10px 53px 6px rgba(25,42,86,1);
+-moz-box-shadow: 10px 10px 53px 6px rgba(25,42,86,1);
+box-shadow: 10px 10px 53px 6px rgba(25,42,86,1);
+}
+.select-cat{ 
+    margin-top: 30px;
+    border: none;
+    background-color: #EAF0F1;
+}
+.div-inp-addpro{
+    margin-bottom: 5px;
+    float: left;
+}
+.div-inp-editpro{
+    margin-bottom: 5px;
+    float: left;
+}
+.custom-div-for-add-pro{
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 20px;
+}
+.select-option{
+    width: 100px;
+    height: 30px;
+    background-color: #192A56;
+    border: none;
+    color: #EAF0F1;
+}
+.custom-alert{
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*------------------------------------------------------------------------custom select option*/
+
+.custom-select {
+    width: 50%;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.custom-select select {
+  display: none; 
+}
+
+.select-selected {
+  background-color: #192A56;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #0A3D62;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.inp-div-addpro{
+    background-color: #99AAAB;
+}
+.inp-div-editpro{
+    background-color: #99AAAB;
+}
+.save-btn-addpro {
+    border: none;
+    background-color: #2B2B52;
+}
+.modal-container{
+    position: fixed;
+    visibility: visible;
+    z-index: 4;
+}
+/*------------------------------------------------------------------------custom select option*/
+#add-cat{
+    display: none;
+}
+#add-subcat{
+    display: none;
+}
+#add-brand{
+    display: none;
+}
+#add-pro{
+    display: none;
+}
+/*-----------------------------------------------------add product.html*/
+
+/* data table */
+
+.dataTables_length{
+    width: auto;
+    font-size: 18px;
+}
+/*------------------------------------ Icons */
+
+.panel-header-icons{
+    color: #EAF0F1;
+    margin-left: 10px;
+}
